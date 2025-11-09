@@ -1,4 +1,4 @@
-// import ClientDateTime from './components/ClientDateTime'
+import ClientDateTime from './components/ClientDateTime'
 
 export default function Home() {
   return (
