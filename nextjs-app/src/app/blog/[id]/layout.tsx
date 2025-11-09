@@ -1,4 +1,5 @@
-import BlogSidebar from '../components/BlogSidebar'
+// import BlogSidebar from '../components/BlogSidebar'
+import BlogSidebar from '../../components/BlogSidebar'
 export default function BlogLayout({
   children,
 }: {
