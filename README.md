@@ -22,28 +22,28 @@ A modern blog application built with Next.js, featuring server-side rendering, d
 ## folder structure
 
 nextjs-app/
-├── src/
-│   ├── app/
-│   │   ├── about/
-│   │   │   └── page.tsx
-│   │   ├── blog/
-│   │   │   ├── [id]/
-│   │   │   │   └── layout.tsx
-│   │   │   ├── layout.tsx
-│   │   │   └── page.tsx
-│   │   ├── components/
-│   │   │   ├── BlogSidebar.tsx
-│   │   │   ├── ClientDateTime.tsx
-│   │   │   ├── ThemeProvider.tsx
-│   │   │   └── ThemeToggle.tsx
-│   │   ├── layout.tsx
-│   │   └── page.tsx
-│   └── styles/
-├── public/
-│   └── scr.png
-├── next.config.js
-├── package.json
-└── README.md
+- ├── src/
+- │   ├── app/
+- │   │   ├── about/
+- │   │   │   └── page.tsx
+- │   │   ├── blog/
+- │   │   │   ├── [id]/
+- │   │   │   │   └── layout.tsx
+- │   │   │   ├── layout.tsx
+- │   │   │   └── page.tsx
+- │   │   ├── components/
+- │   │   │   ├── BlogSidebar.tsx
+- │   │   │   ├── ClientDateTime.tsx
+- │   │   │   ├── ThemeProvider.tsx
+- │   │   │   └── ThemeToggle.tsx
+- │   │   ├── layout.tsx
+- │   │   └── page.tsx
+- │   └── styles/
+- ├── public/
+- │   └── scr.png
+- ├── next.config.js
+- ├── package.json
+- └── README.md
 
 ##  Getting Started
 
@@ -73,18 +73,14 @@ Deploy with Vercel
 
 ### Key Points About the Structure:
 
-1. **`src/app/`**: Contains all your application routes and pages
-   - Uses Next.js 13+ App Router
-   - Each folder represents a route
-   - [page.tsx](cci:7://file:///c:/Users/USER/Documents/my-projects/nextjs-rendering-assignment/nextjs-app/src/app/page.tsx:0:0-0:0) files are the actual pages
 
-2. **`public/`**: Static files like images, icons, etc.
+**`public/`**: Static files like images, icons, etc.
 
-3. **Configuration**:
+**Configuration**:
    - `next.config.js`: Next.js configuration
    - `package.json`: Project dependencies and scripts
 
-4. **Components**:
+**Components**:
    - Reusable UI components are in `src/app/components/`
    - Each component has its own file with a descriptive name
 
